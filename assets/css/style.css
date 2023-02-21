@@ -1007,7 +1007,7 @@ section {
 }
 
 .services .title {
-  margin-left: 60px;
+  /* margin-left: 20px; */
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
@@ -1024,9 +1024,40 @@ section {
 
 .services .description {
   font-size: 14px;
-  margin-left: 60px;
+  /* margin-left: 20px; */
   line-height: 24px;
   margin-bottom: 0;
+}
+
+/* count */
+.c-no {
+  padding: 6rem 4rem 2rem;
+}
+
+.counter-Txt {
+  text-align: center;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 20px;
+  font-weight: 700 !important;
+  font-weight: bold;
+  /* text-transform: capitalize; */
+  margin: 15px 0 !important;
+}
+
+.counter-value {
+  font-weight: 800 !important;
+  color: #8E62AC;
+}
+
+.counter-Txt img {
+  width: 90px;
+}
+
+.counter-Txt span {
+  font-family: 'Urbanist', sans-serif;
+  display: block;
+  margin: 8px auto;
+  font-size: 36px
 }
 
 /*--------------------------------------------------------------
@@ -1065,7 +1096,7 @@ section {
   opacity: .25;
 }
 
-.portfolio .verticals .col-6 img{
+.portfolio .verticals .col-6 img {
   align-items: center;
   justify-content: space-evenly;
 }
