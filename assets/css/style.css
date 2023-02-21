@@ -1057,12 +1057,17 @@ section {
 }
 
 .portfolio .verticals hr {
-  margin: 0 0 1rem 0;
+  margin: 1rem 0;
   color: inherit;
   border: 0;
   width: 70%;
   border-top: 1px solid;
   opacity: .25;
+}
+
+.portfolio .verticals .col-6 img{
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .vertical-txt {
